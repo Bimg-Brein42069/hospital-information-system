@@ -1,0 +1,27 @@
+
+**************** AUTHENTICATION SERVICE ****************
+
+Tables: 
+User (id, email, password, role)
+
+
+
+
+********************* OPD SERVICE **********************
+
+Tables: 
+Diagnosis Report (diagnosisId, patientId, doctorId, reportLink, timestamp)
+Medicine (medicineId, medicineName, count, instruction)
+// we may need to create a separate table for medicines
+
+PatientRecord (recordId, patientId, doctorId, hospitalName, patientComplaints, Vitals(weight, height, temperature, lowBP, highBP), medicines[], advice, followUp)
+
+
+
+***************** RECEPTION SERVICE ********************
+
+Tables:
+OpdAppointment (patientId, doctorId, reason)
+// As of now, we are using doctorName, we need to change it to doctorId
+
+Patient (id, name, age, bloodGroup, gender, phoneNo, address)

@@ -1,0 +1,7 @@
+{
+  "name": "hospital-management-system",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

@@ -1,0 +1,42 @@
+.view-bill h1 {
+    text-align: center;
+}
+
+.view-bill .table {
+    border: 2px solid black;
+    margin: 20px 40px;
+}
+
+.view-bill .table > ion-row {
+    margin: 8px 0;
+}
+
+.view-bill .table-header {
+    border-bottom: 2px solid black;
+    padding: 0 0 10px 0;
+}
+
+.view-patient ion-row {
+    margin: 20px 0;
+}
+
+.view-patient ion-col {
+    background-color: white;
+    border: solid 2px #000000;
+    border-radius: 12px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+}
+
+.view-patient ion-content > h1 {
+    text-align: center;
+}
+
+.view-patient ion-content > .button-container {
+    display: flex;
+    justify-content: center;
+}

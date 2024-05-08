@@ -1,0 +1,14 @@
+.pencil-tool {
+    border: 1px solid #616060; 
+    width: 100%; 
+    height: 400px; 
+    margin: 1rem 0px;
+}
+
+.audio-record{
+    display: inline-block;
+    /* border: 5px solid blue;  */
+    border-radius: 50%;
+    margin: 1rem 0px;
+    padding: 10px;
+}

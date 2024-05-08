@@ -1,0 +1,5 @@
+.idea
+run.sh
+DiagnosisReport/
+.prettierrc.json
+.DS_Store
